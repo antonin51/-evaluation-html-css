@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --gloria:"Gloria Hallelujah", serif;
+    --noto:"Noto Sans", serif;
+    --black:#000;
+    --red:#cc3900;
+    --pink:#fbbbcd;
+    --white:#fff;
+}
+
+*{
+    margin: 0;
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    border: 1px solid var(--red);
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    scale: 1.1;
+    transition: all 0.2s ease;
+}
+.container-1440{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+h2{
+    color: var(--black);
+    font-family: var(--gloria);
+    font-weight: 400;
+    font-size: 45px;
+}
+
+header img{
+    width: 180px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 230px auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 16px;
+}
+header nav ul li a:hover{
+    color: var(--red);
+    transition: all 0.2s ease;
+}
+
+header div{
+    display: flex;
+    justify-content: end;
+    margin-left: 30px;
+}
+
+header i{
+    color: var(--red);
+    font-size: 25px;
+}
+
+section{
+    background-image: url(../img/fondrose.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top right;
+    background-attachment: scroll;
+}
+
+section #div1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding: 60px 0;
+
+}
+
+section p{
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 35px;
+    padding-right: 45px;
+}
+
+section #contentzone{
+    display: grid;
+    grid-template-columns: 30px auto;
+    gap: 10px;
+}
+
+section article p,
+h3{
+    font-family: var(--gloria);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+section article p{
+    padding-left: 40px;
+    line-height: 10px;
+}
+
+section i{
+    font-size: 16px;
+    color: var(--red);
+    margin-top: 13px;
+}
+
+form{
+    max-width: 400px;
+}
+
+section label{
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+section form div{
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+form input{
+    padding: 7px;
+}
+
+form #submit{
+    color: var(--white);
+    background-color: var(--pink);
+    border: none;
+    width: 400px;
+}
+
+footer img{
+    width: 180px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+footer #div1{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+footer p{
+    padding-top: 15px;
+    text-align: center;
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer a:hover{
+    color: var(--red);
+    transition: all 0.2s ease;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+footer nav ul li a:hover{
+    color: var(--red);
+    transition: all 0.2s ease;
+}
+
+footer #div2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+footer i{
+    color: var(--red);
+    font-size: 25px;
+}

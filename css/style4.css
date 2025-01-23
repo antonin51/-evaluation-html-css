@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --gloria:"Gloria Hallelujah", serif;
+    --noto:"Noto Sans", serif;
+    --black:#000;
+    --red:#cc3900;
+    --pink:#fbbbcd;
+    --white:#fff;
+}
+
+*{
+    margin: 0;
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    border: 1px solid var(--red);
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    scale: 1.1;
+    transition: all 0.2s ease;
+}
+.container-1440{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+h2{
+    color: var(--black);
+    font-family: var(--gloria);
+    font-weight: 400;
+    font-size: 45px;
+}
+
+header img{
+    width: 180px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 230px auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 16px;
+}
+header nav ul li a:hover{
+    color: var(--red);
+    transition: all 0.2s ease;
+}
+
+header div{
+    display: flex;
+    justify-content: end;
+    margin-left: 30px;
+}
+
+header i{
+    color: var(--red);
+    font-size: 25px;
+}
+
+section img{
+    max-width: 260px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+section div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+#section h3{
+    text-align: center;
+}
+
+footer img{
+    width: 180px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    gap: 20px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer #div1{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+footer p{
+    padding-top: 15px;
+    text-align: center;
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer a:hover{
+    color: var(--red);
+    transition: all 0.2s ease;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+footer nav ul li a:hover{
+    color: var(--red);
+    transition: all 0.2s ease;
+}
+
+footer #div2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+footer i{
+    color: var(--red);
+    font-size: 25px;
+}
